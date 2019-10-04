@@ -143,7 +143,4 @@ class BrowserDB {
         })
         this.backup = backup;
     }
-    copyright() {
-        return String(`BrowserDB (c) HazardWorks ${new Date().getFullYear()}`);
-    }
 }
